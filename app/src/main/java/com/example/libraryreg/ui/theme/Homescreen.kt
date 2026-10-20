@@ -59,19 +59,6 @@ fun HomeScreen(
         ) {
             Column(Modifier.padding(24.dp)) {
                 Text(
-                    "Selamat Datang!",
-                    style = MaterialTheme.typography.headlineSmall,
-                    color = Color.White,
-                    fontWeight = FontWeight.Bold
-                )
-                Spacer(Modifier.height(8.dp))
-                Text(
-                    "Mengelola pendaftaran anggota perpustakaan menjadi lebih mudah!",
-                    color = Color(0xFFCBDCF3)
-                )
-                Spacer(Modifier.height(24.dp))
-
-                Text(
                     "TOTAL ANGGOTA",
                     color = Color(0xFFCBDCF3)
                 )
